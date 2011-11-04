@@ -1,3 +1,9 @@
+# revision 21771
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/mp3d
+# catalog-date 2011-03-19 23:48:16 +0100
+# catalog-license noinfo
+# catalog-version 1.34
 Name:		texlive-mp3d
 Version:	1.34
 Release:	1
@@ -75,6 +81,7 @@ in MetaPost.
 %doc %{_texmfdistdir}/doc/metapost/mp3d/tb57roeg.pdf
 %doc %{_texmfdistdir}/doc/metapost/mp3d/tb57roegel.ltx
 %doc %{_texmfdistdir}/doc/metapost/mp3d/tugboat-geometry-space.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -85,3 +92,5 @@ in MetaPost.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
