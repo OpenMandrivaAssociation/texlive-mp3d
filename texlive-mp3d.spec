@@ -82,3 +82,17 @@ in MetaPost.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.34-2
++ Revision: 754112
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.34-1
++ Revision: 719066
+- texlive-mp3d
+- texlive-mp3d
+- texlive-mp3d
+- texlive-mp3d
+
