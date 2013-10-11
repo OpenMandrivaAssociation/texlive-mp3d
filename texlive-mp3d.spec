@@ -1,16 +1,16 @@
-# revision 21771
+# revision 29349
 # category Package
 # catalog-ctan /graphics/metapost/contrib/macros/mp3d
-# catalog-date 2011-03-19 23:48:16 +0100
-# catalog-license noinfo
+# catalog-date 2012-05-25 16:08:07 +0200
+# catalog-license lppl
 # catalog-version 1.34
 Name:		texlive-mp3d
 Version:	1.34
-Release:	2
+Release:	3
 Summary:	3D animations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mp3d
-License:	NOINFO
+License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mp3d.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mp3d.doc.tar.xz
 BuildArch:	noarch
@@ -82,17 +82,3 @@ in MetaPost.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.34-2
-+ Revision: 754112
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.34-1
-+ Revision: 719066
-- texlive-mp3d
-- texlive-mp3d
-- texlive-mp3d
-- texlive-mp3d
-
