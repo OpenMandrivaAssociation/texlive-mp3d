@@ -6,7 +6,7 @@
 # catalog-version 1.34
 Name:		texlive-mp3d
 Version:	1.34
-Release:	3
+Release:	4
 Summary:	3D animations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mp3d
