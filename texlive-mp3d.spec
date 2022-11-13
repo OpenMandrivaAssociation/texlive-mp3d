@@ -1,18 +1,12 @@
-# revision 29349
-# category Package
-# catalog-ctan /graphics/metapost/contrib/macros/mp3d
-# catalog-date 2012-05-25 16:08:07 +0200
-# catalog-license lppl
-# catalog-version 1.34
 Name:		texlive-mp3d
-Version:	1.34
-Release:	12
+Version:	29349
+Release:	1
 Summary:	3D animations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mp3d
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mp3d.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mp3d.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mp3d.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mp3d.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +17,12 @@ Create animations of 3-dimensional objects (such as polyhedra)
 in MetaPost.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -75,7 +69,7 @@ in MetaPost.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
