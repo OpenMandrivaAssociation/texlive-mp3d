@@ -1,6 +1,6 @@
 Name:		texlive-mp3d
 Version:	29349
-Release:	1
+Release:	2
 Summary:	3D animations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mp3d
