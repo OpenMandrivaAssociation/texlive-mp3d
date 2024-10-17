@@ -3,7 +3,7 @@ Version:	29349
 Release:	2
 Summary:	3D animations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mp3d
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mp3d
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mp3d.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mp3d.doc.r%{version}.tar.xz
